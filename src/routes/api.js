@@ -16,17 +16,17 @@ const {
 // api end points implementation
 router.get('/sales/total-revenue',getTotalRevenue);
 
-router.get('/sales/total-revenue',getQuantityByProduct);
+router.get('/sales/quantity-by-product',getQuantityByProduct);
 
-router.get('/sales/total-revenue',getTopProducts);
+router.get('/sales/top-products',getTopProducts);
 
-router.get('/sales/total-revenue',getAveragePrice);
+router.get('/sales/average-price',getAveragePrice);
 
-router.get('/sales/total-revenue',getRevenueByMonth);
+router.get('/sales/revenue-by-month',getRevenueByMonth);
 
-router.get('/sales/total-revenue',getHighestQuantitySold);
+router.get('/sales/highest-quantity-sold',getHighestQuantitySold);
 
-router.get('/sales/total-revenue',getDepartmentSalaryExpense);
+router.get('/sales/department-salary-expense',getDepartmentSalaryExpense);
 
 
 module.exports=router;
